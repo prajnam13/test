@@ -7,7 +7,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+	</parent> 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -35,10 +35,9 @@
 		</dependency>
 
 		<dependency>
-    		<groupId>org.lucee</groupId>
+    		<groupId>org.postgresql</groupId>
     		<artifactId>postgresql</artifactId>
-    		<version>8.3-606.jdbc4</version>
-    		<scope>runtime</scope>
+    		<version>42.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
